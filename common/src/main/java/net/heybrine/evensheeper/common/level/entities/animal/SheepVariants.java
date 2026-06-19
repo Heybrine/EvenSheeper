@@ -27,12 +27,12 @@ public class SheepVariants {
             "warm_sheep",
             ModBiomeTags.SPAWNS_WARM_VARIANT_FARM_ANIMALS
     );
-    public static final ResourceKey<SheepVariant> COLD = register(
+    /*public static final ResourceKey<SheepVariant> COLD = register(
             "cold",
             SheepVariant.ModelType.COLD,
             "cold_sheep",
             ModBiomeTags.SPAWNS_COLD_VARIANT_FARM_ANIMALS
-    );
+    );*/
 
     private static ResourceKey<SheepVariant> register(String key, SheepVariant.ModelType type, String adultAssetId, String underWoolTextureId, String woolTextureId, TagKey<Biome> biome) {
         return register(key, type, adultAssetId, underWoolTextureId, woolTextureId, SpawnPrioritySelectors.single(new RawBiomeCheck(biome), 1));
