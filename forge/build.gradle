@@ -6,6 +6,9 @@ loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 
     forge {
+        convertAccessWideners = true
+        extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
+
         mixinConfig "evensheeper.mixins.json"
         mixinConfig "evensheeper.forge.mixins.json"
     }
@@ -37,9 +40,15 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:$rootProject.forge_version"
+    modImplementation "flatDir:Platform-forge-1.20.1-$rootProject.platform_indev_version"
 
     // Architectury API. This is optional, and you can comment it out if you don't need it.
     modImplementation "dev.architectury:architectury-forge:$rootProject.architectury_api_version"
+    modImplementation "maven.modrinth:platform:1.3.3-forge,1.20.1"
+    modImplementation "maven.modrinth:vanillabackport:1.1.7.6-forge,1.20.1"
+
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.1"))
+    implementation(include("io.github.llamalad7:mixinextras-forge:0.4.1"))
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
@@ -54,6 +63,9 @@ processResources {
 }
 
 shadowJar {
+    exclude "architectury.common.json"
+    exclude "fabric.mod.json"
+
     configurations = [project.configurations.shadowBundle]
     archiveClassifier = 'dev-shadow'
 }
