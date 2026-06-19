@@ -31,7 +31,7 @@
     "java": ">=17",
     "architectury": ">=9.2.14",
     "fabric-api": "*",
-    "platform": ">=1.3.3",
+    "platform": ">=1.3.4",
     "vanillabackport": ">=1.1.7"
   },
   "suggests": {
