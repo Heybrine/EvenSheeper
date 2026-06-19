@@ -4,7 +4,7 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import com.blackgear.platform.core.BuiltInCoreRegistry;
 import com.blackgear.vanillabackport.client.api.renderer.AbstractVariantRenderer;
-//import net.heybrine.evensheeper.client.level.entities.model.sheep.ColdSheepModel;
+import net.heybrine.evensheeper.client.level.entities.model.sheep.ColdSheepModel;
 import net.heybrine.evensheeper.client.level.entities.model.sheep.WarmSheepModel;
 import net.heybrine.evensheeper.client.registries.ModModelLayers;
 import net.heybrine.evensheeper.common.level.entities.animal.SheepVariant;
@@ -29,7 +29,7 @@ public class SheepSpecialRenderer extends AbstractVariantRenderer<Sheep, SheepMo
         Map<SheepVariant.ModelType, SheepModel<Sheep>> map = Maps.newEnumMap(SheepVariant.ModelType.class);
         map.put(SheepVariant.ModelType.NORMAL, null);
         map.put(SheepVariant.ModelType.WARM, new WarmSheepModel<>(context.bakeLayer(ModModelLayers.WARM_SHEEP)));
-        //map.put(SheepVariant.ModelType.COLD, new ColdSheepModel<>(context.bakeLayer(ModModelLayers.COLD_SHEEP)));
+        map.put(SheepVariant.ModelType.COLD, new ColdSheepModel<>(context.bakeLayer(ModModelLayers.COLD_SHEEP)));
         return map;
     }
 

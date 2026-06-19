@@ -5,7 +5,6 @@ import com.blackgear.vanillabackport.client.api.renderer.SpecialMobRenderer;
 import com.blackgear.vanillabackport.core.mixin.client.entities.renderer.MobRendererMixin;
 import net.heybrine.evensheeper.client.api.renderer.renderers.SheepSpecialRenderer;
 import com.blackgear.vanillabackport.client.api.renderer.RenderConditions;
-import net.heybrine.evensheeper.client.level.entities.layer.SheepWoolUndercoatLayer;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.model.SheepModel;
 import net.minecraft.client.renderer.MultiBufferSource;
@@ -36,7 +35,7 @@ public abstract class SheepRendererMixin extends MobRendererMixin<Sheep, SheepMo
         this.renderer = SpecialMobRenderer.create(context, SheepSpecialRenderer::new, RenderConditions.FARM_ANIMALS);
 
         SpecialMobRenderer.addLayer(
-                SpecialMobRenderer.create(context, ctx -> new SheepWoolUndercoatLayer(this, ctx.getModelSet()), RenderConditions.SHEEP_UNDERCOAT),
+                SpecialMobRenderer.create(context, ctx -> new SheepWoolUndercoatLayerMixin(this, ctx.getModelSet()), RenderConditions.SHEEP_UNDERCOAT),
                 this::addLayer
         );
     }

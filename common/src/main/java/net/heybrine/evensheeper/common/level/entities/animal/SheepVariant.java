@@ -42,7 +42,7 @@ public record SheepVariant(
 
     public static enum ModelType implements StringRepresentable {
         NORMAL("normal"),
-        //COLD("cold"),
+        COLD("cold"),
         WARM("warm");
 
         public static final Codec<ModelType> CODEC = StringRepresentable.fromEnum(ModelType::values);

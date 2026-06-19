@@ -19,26 +19,32 @@ public class SheepVariants {
             "temperate",
             SheepVariant.ModelType.NORMAL,
             "sheep",
+            "sheep_wool_undercoat",
+            "sheep_fur",
             SpawnPrioritySelectors.fallback(0)
     );
     public static final ResourceKey<SheepVariant> WARM = register(
             "warm",
             SheepVariant.ModelType.WARM,
             "warm_sheep",
+            "warm_sheep_undercoat",
+            "warm_sheep_wool",
             ModBiomeTags.SPAWNS_WARM_VARIANT_FARM_ANIMALS
     );
-    /*public static final ResourceKey<SheepVariant> COLD = register(
+    public static final ResourceKey<SheepVariant> COLD = register(
             "cold",
             SheepVariant.ModelType.COLD,
             "cold_sheep",
+            "cold_sheep_undercoat",
+            "cold_sheep_wool",
             ModBiomeTags.SPAWNS_COLD_VARIANT_FARM_ANIMALS
-    );*/
+    );
 
     private static ResourceKey<SheepVariant> register(String key, SheepVariant.ModelType type, String adultAssetId, String underWoolTextureId, String woolTextureId, TagKey<Biome> biome) {
         return register(key, type, adultAssetId, underWoolTextureId, woolTextureId, SpawnPrioritySelectors.single(new RawBiomeCheck(biome), 1));
     }
 
-    private static ResourceKey<SheepVariant> register(String key, SheepVariant.ModelType type, String adultAssetId, SpawnPrioritySelectors selectors) {
+    private static ResourceKey<SheepVariant> register(String key, SheepVariant.ModelType type, String adultAssetId, String underWoolTextureId, String woolTextureId, SpawnPrioritySelectors selectors) {
         ResourceLocation adultTexture = new ResourceLocation("entity/sheep/" + adultAssetId);
         ResourceLocation underWoolTexture = new ResourceLocation("entity/sheep/" + underWoolTextureId);
         ResourceLocation woolTexture = new ResourceLocation("entity/sheep/" + woolTextureId);

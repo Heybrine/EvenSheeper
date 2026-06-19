@@ -1,5 +1,6 @@
-package net.heybrine.evensheeper.client.level.entities.layer;
+package net.heybrine.evensheeper.core.mixin.client.entities.renderer;
 
+import com.blackgear.vanillabackport.client.level.entities.layer.SheepWoolUndercoatLayer;
 import com.blackgear.vanillabackport.client.util.LazyModel;
 import com.blackgear.vanillabackport.common.api.variant.VariantDataHolder;
 import net.heybrine.evensheeper.common.level.entities.animal.SheepVariant;
@@ -12,16 +13,18 @@ import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.resources.ResourceLocation;
+//import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.item.DyeColor;
+import org.spongepowered.asm.mixin.Mixin;
 
-public class SheepWoolUndercoatLayer extends RenderLayer<Sheep, SheepModel<Sheep>> {
+@Mixin(SheepWoolUndercoatLayer.class)
+public class SheepWoolUndercoatLayerMixin extends RenderLayer<Sheep, SheepModel<Sheep>> {
     //private static final ResourceLocation SHEEP_WOOL_UNDERCOAT_TEXTURE = new ResourceLocation("textures/entity/sheep/sheep_wool_undercoat.png");
     private final LazyModel<Sheep, EntityModel<Sheep>> model;
 
-    public SheepWoolUndercoatLayer(RenderLayerParent<Sheep, SheepModel<Sheep>> renderer, EntityModelSet models) {
+    public SheepWoolUndercoatLayerMixin(RenderLayerParent<Sheep, SheepModel<Sheep>> renderer, EntityModelSet models) {
         super(renderer);
         this.model = LazyModel.of(models, ModelLayers.SHEEP, SheepFurModel::new);
     }
