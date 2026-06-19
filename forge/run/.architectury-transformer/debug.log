@@ -1,12 +1,13 @@
 [Architectury Transformer] Architectury Runtime 5.2.91
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 105 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 107 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\fabric-loom\1.20.1\forge\1.20.1-47.4.10\client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.3\354dfaa02d0552e11867f85dff7cdbfaf813ba3e\fabric-loader-0.19.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.2\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-common\0.4.1\a7f425cc49de7f10d008a9a676f5f023ebac13bb\mixinextras-common-0.4.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.10\a262fa19e65f643aae210b4275b53bee053aa765\fmlearlydisplay-1.20.1-47.4.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar
@@ -75,6 +76,7 @@
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-naming-service\2.0.9\c4c4732b3a00b67523c3028b49af402402be7883\architectury-naming-service-2.0.9.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-mixin-remapper-service\2.0.9\eede5ef35349f2b295fe1f3e7579382d26784b24\architectury-mixin-remapper-service-2.0.9.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\dev.architectury\mcp-annotations\2.0.9\84f3d1e27805912592af0289d6fce0be53ee689a\mcp-annotations-2.0.9.jar
+[Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-forge\0.4.1\5c35573a7b76103724799ca1174a69699b8a9aec\mixinextras-forge-0.4.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
@@ -104,23 +106,23 @@
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\forge-1.20.1-47.4.10-minecraft-merged\1.20.1-loom.mappings.1_20_1.layered+hash.434613298-v2-forge-1.20.1-47.4.10\forge-1.20.1-47.4.10-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.434613298-v2-forge-1.20.1-47.4.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\platform-5771f405\1.3.3-forge,1.20.1\platform-5771f405-1.3.3-forge,1.20.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\vanillabackport-5771f405\1.1.7.6-forge,1.20.1\vanillabackport-5771f405-1.1.7.6-forge,1.20.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\dev\architectury\architectury-forge-5771f405\9.2.14\architectury-forge-5771f405-9.2.14.jar
-[Architectury Transformer] Read classpath in 1.979 s
+[Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\platform-5771f405\1.3.4-forge,1.20.1\platform-5771f405-1.3.4-forge,1.20.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\vanillabackport-5771f405\1.1.7.10-forge,1.20.1\vanillabackport-5771f405-1.1.7.10-forge,1.20.1.jar
+[Architectury Transformer] Read classpath in 2.965 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\11858927001924098780.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@74294adb
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@70a9f84e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@130f889
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1188e820
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@2f490758
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@101df177
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@166fa74d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@40f08448
-[Architectury Transformer DEBUG] Transforming from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\11858927001924098780.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\11580212665070064806.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@70a9f84e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@130f889
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1188e820
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2f490758
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@101df177
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@166fa74d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@40f08448
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@276438c9
+[Architectury Transformer DEBUG] Transforming from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\11580212665070064806.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$141/0x00000153e208ebf8@534df152
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$141/0x000002440108e868@52e677af
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -131,9 +133,20 @@
 [Architectury Transformer DEBUG] Found mixin config(s): evensheeper.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, evensheeper.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: evensheeper-forge-1.20.1-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\AppData\Local\Temp\11858927001924098780.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\AppData\Local\Temp\11580212665070064806.jar
 [Architectury Transformer] Listening at C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\dudur\AppData\Local\Temp\11858927001924098780.jar] contains packages: net.heybrine.evensheeper
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\dudur\AppData\Local\Temp\11580212665070064806.jar] contains packages: net.heybrine.evensheeper
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\dudur\Downloads\Repositories\EvenSheeper\forge\build\classes\java\main] contains packages: net.heybrine.evensheeper.forge
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\dudur\Downloads\Repositories\EvenSheeper\forge\build\resources\main] contains packages: 
+[Architectury Transformer DEBUG] Transforming from net/heybrine/evensheeper/EvenSheeper.class to net/heybrine/evensheeper/EvenSheeper.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$141/0x000002440108e868@52e677af
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/EvenSheeper with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: evensheeper-forge-1.20.1-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed net/heybrine/evensheeper/EvenSheeper in 486.0 ms
